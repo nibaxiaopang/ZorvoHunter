@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "6wg-T9-Ihc"; */
+"6wg-T9-Ihc.text" = "About Us";
+
+/* Class = "UILabel"; text = "TOP"; ObjectID = "CC2-OC-qWR"; */
+"CC2-OC-qWR.text" = "TOP";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "IkX-lb-OKj"; */
+"IkX-lb-OKj.text" = "Feedback";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LE1-cL-WqC"; */
+"LE1-cL-WqC.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Nwl-xa-naD"; */
+"Nwl-xa-naD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "R\nI\nG\nH\nT"; ObjectID = "UAf-jh-2tr"; */
+"UAf-jh-2tr.text" = "R\nI\nG\nH\nT";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "h5L-Ji-UjZ"; */
+"h5L-Ji-UjZ.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "SCORE : 0"; ObjectID = "hc7-BO-ocD"; */
+"hc7-BO-ocD.text" = "SCORE : 0";
+
+/* Class = "UITextView"; text = "Zorvo Hunter: An Ancient Egyptian Word-Hunting Adventure!\n\nEmbark on a thrilling journey through the mystical sands of ancient Egypt in Zorvo Hunter, a fast-paced word-hunting game with a unique twist. Players navigate a magical view to uncover hidden letters scattered across the game board, inspired by the hieroglyphic mysteries of Egyptian temples. The goal is to collect all the letters to form the target word before the sands of time run out. With vibrant visuals, intuitive controls, and the challenge of the ticking clock, Zorvo Hunter offers endless fun and mental stimulation for players of all ages.\n\nHow to Play:\n\t1.\tNavigate the Board: Use directional controls (up, down, left, right) to move the “search view” around a board styled like an ancient Egyptian artifact.\n\t2.\tFind Hidden Letters: Reveal hidden letters by guiding the “search view” to collide with letter boxes adorned with glowing hieroglyphs.\n\t3.\tForm the Word: Collect the letters needed to complete the target word displayed in a golden cartouche at the top of the screen.\n\t4.\tBeat the Clock: Complete the word before the timer—represented by flowing golden sand—runs out to unlock the next challenge.\n\t5.\tProgress Through Levels: Each level brings a new word and intricate patterns of hidden letters, set against breathtaking Egyptian backdrops.\n\t6.\tCompete for High Scores: Aim for the highest score and challenge friends to climb the pyramid of the leaderboard.\n\nFeatures:\n\t•\tBoost Cognitive Skills: Sharpen problem-solving and memory while decoding hidden letters in hieroglyphic-inspired puzzles.\n\t•\tImprove Coordination: Enhance hand-eye coordination with precise movements to uncover clues amidst the ancient symbols.\n\t•\tEngaging Gameplay: Combines the challenge of word-building with immersive Egyptian-themed visuals for a one-of-a-kind experience.\n\t•\tStay Focused: Encourages concentration as players scan the game board, mimicking the thrill of exploring ancient ruins.\n\t•\tFamily-Friendly Fun: Suitable for all ages, making it perfect for family adventures into the secrets of Egypt.\n\t•\tHealthy Competition: Compete with friends to uncover the mysteries of the words and claim the crown of the pharaoh.\n\nStep into the enchanting world of Zorvo Hunter and unearth the secrets of ancient Egypt. Can you beat the clock, uncover the hidden words, and claim the treasures of the Nile? The adventure awaits!"; ObjectID = "nj3-qb-1OA"; */
+"nj3-qb-1OA.text" = "Zorvo Hunter: An Ancient Egyptian Word-Hunting Adventure!\n\nEmbark on a thrilling journey through the mystical sands of ancient Egypt in Zorvo Hunter, a fast-paced word-hunting game with a unique twist. Players navigate a magical view to uncover hidden letters scattered across the game board, inspired by the hieroglyphic mysteries of Egyptian temples. The goal is to collect all the letters to form the target word before the sands of time run out. With vibrant visuals, intuitive controls, and the challenge of the ticking clock, Zorvo Hunter offers endless fun and mental stimulation for players of all ages.\n\nHow to Play:\n\t1.\tNavigate the Board: Use directional controls (up, down, left, right) to move the “search view” around a board styled like an ancient Egyptian artifact.\n\t2.\tFind Hidden Letters: Reveal hidden letters by guiding the “search view” to collide with letter boxes adorned with glowing hieroglyphs.\n\t3.\tForm the Word: Collect the letters needed to complete the target word displayed in a golden cartouche at the top of the screen.\n\t4.\tBeat the Clock: Complete the word before the timer—represented by flowing golden sand—runs out to unlock the next challenge.\n\t5.\tProgress Through Levels: Each level brings a new word and intricate patterns of hidden letters, set against breathtaking Egyptian backdrops.\n\t6.\tCompete for High Scores: Aim for the highest score and challenge friends to climb the pyramid of the leaderboard.\n\nFeatures:\n\t•\tBoost Cognitive Skills: Sharpen problem-solving and memory while decoding hidden letters in hieroglyphic-inspired puzzles.\n\t•\tImprove Coordination: Enhance hand-eye coordination with precise movements to uncover clues amidst the ancient symbols.\n\t•\tEngaging Gameplay: Combines the challenge of word-building with immersive Egyptian-themed visuals for a one-of-a-kind experience.\n\t•\tStay Focused: Encourages concentration as players scan the game board, mimicking the thrill of exploring ancient ruins.\n\t•\tFamily-Friendly Fun: Suitable for all ages, making it perfect for family adventures into the secrets of Egypt.\n\t•\tHealthy Competition: Compete with friends to uncover the mysteries of the words and claim the crown of the pharaoh.\n\nStep into the enchanting world of Zorvo Hunter and unearth the secrets of ancient Egypt. Can you beat the clock, uncover the hidden words, and claim the treasures of the Nile? The adventure awaits!";
+
+/* Class = "UILabel"; text = "Word Hunter"; ObjectID = "rfa-qj-DCl"; */
+"rfa-qj-DCl.text" = "Word Hunter";
+
+/* Class = "UILabel"; text = "DOWN"; ObjectID = "sF5-VX-3zD"; */
+"sF5-VX-3zD.text" = "DOWN";
+
+/* Class = "UILabel"; text = "TIME"; ObjectID = "u5h-vJ-z59"; */
+"u5h-vJ-z59.text" = "TIME";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xyR-w5-jK5"; */
+"xyR-w5-jK5.text" = "Label";
+
+/* Class = "UILabel"; text = "SETTING"; ObjectID = "yFd-HN-d9p"; */
+"yFd-HN-d9p.text" = "SETTING";
+
+/* Class = "UILabel"; text = "L\nE\nF\nT"; ObjectID = "zgB-dh-qQ1"; */
+"zgB-dh-qQ1.text" = "L\nE\nF\nT";
