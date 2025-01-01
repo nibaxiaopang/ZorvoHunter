@@ -7,6 +7,7 @@
 
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class ZorvoFeedbackViewController: UIViewController {
 
@@ -28,6 +29,8 @@ class ZorvoFeedbackViewController: UIViewController {
 
     // MARK: - Setup UI
     private func setupUI() {
+        
+        IQKeyboardManager.shared.isEnabled = true
         
         titleLabel.text = "We Value Your Feedback"
 

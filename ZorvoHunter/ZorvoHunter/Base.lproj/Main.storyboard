@@ -965,6 +965,8 @@ T</string>
                     <connections>
                         <outlet property="dashImage" destination="XDF-xA-3hW" id="fcQ-ta-hoI"/>
                         <outlet property="highScoreLabel" destination="xyR-w5-jK5" id="zFM-hF-r7n"/>
+                        <outlet property="playButton" destination="ZeA-pz-CRq" id="PV8-ke-z9m"/>
+                        <outlet property="settingButton" destination="41h-YH-xuG" id="yTR-WN-4IN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBw-0c-VVb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1083,7 +1085,7 @@ Step into the enchanting world of Zorvo Hunter and unearth the secrets of ancien
         <!--Zorvo Privacy Policy View Controller-->
         <scene sceneID="G1T-nu-Ghd">
             <objects>
-                <viewController id="en5-0y-sKX" customClass="ZorvoPrivacyPolicyViewController" customModule="ZorvoHunter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ZorvoPrivacyPolicyViewController" id="en5-0y-sKX" customClass="ZorvoPrivacyPolicyViewController" customModule="ZorvoHunter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Rf-uv-eur">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1097,7 +1099,7 @@ Step into the enchanting world of Zorvo Hunter and unearth the secrets of ancien
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGM-ba-Kav">
-                                <rect key="frame" x="4.9999999999999964" y="64" width="60.666666666666657" height="60.666666666666657"/>
+                                <rect key="frame" x="322.33333333333331" y="64" width="60.666666666666686" height="60.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GGM-ba-Kav" secondAttribute="height" multiplier="1:1" id="z89-Os-KRB"/>
                                 </constraints>
@@ -1124,11 +1126,18 @@ Step into the enchanting world of Zorvo Hunter and unearth the secrets of ancien
                             <constraint firstItem="KGE-dc-Bda" firstAttribute="centerY" secondItem="6Rf-uv-eur" secondAttribute="centerY" id="Ru1-eg-3ag"/>
                             <constraint firstAttribute="bottom" secondItem="lmD-3Q-Tt4" secondAttribute="bottom" id="ctS-md-84o"/>
                             <constraint firstItem="GGM-ba-Kav" firstAttribute="top" secondItem="RIn-ab-ej2" secondAttribute="top" constant="5" id="fIg-yM-BCO"/>
-                            <constraint firstItem="GGM-ba-Kav" firstAttribute="leading" secondItem="RIn-ab-ej2" secondAttribute="leading" constant="5" id="hoK-nP-KJa"/>
+                            <constraint firstItem="RIn-ab-ej2" firstAttribute="trailing" secondItem="GGM-ba-Kav" secondAttribute="trailing" constant="10" id="maf-bs-wqU"/>
                             <constraint firstItem="lmD-3Q-Tt4" firstAttribute="leading" secondItem="6Rf-uv-eur" secondAttribute="leading" id="zRb-Q4-3bb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="adt-W8-RvF"/>
+                    <connections>
+                        <outlet property="backButton" destination="GGM-ba-Kav" id="EX5-7F-gWh"/>
+                        <outlet property="bottomCos" destination="ctS-md-84o" id="TOk-Gw-H6B"/>
+                        <outlet property="hunterWebView" destination="lmD-3Q-Tt4" id="wqy-ip-Qyb"/>
+                        <outlet property="indicatorView" destination="KGE-dc-Bda" id="GRe-bz-Hf5"/>
+                        <outlet property="topCos" destination="ROb-Sx-L5T" id="u1A-i8-UOS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xu-22-6G0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

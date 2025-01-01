@@ -7,4 +7,6 @@ target 'ZorvoHunter' do
 
   # Pods for ZorvoHunter
   pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end
