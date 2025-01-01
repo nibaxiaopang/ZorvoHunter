@@ -1009,20 +1009,27 @@ T</string>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nj3-qb-1OA">
                                         <rect key="frame" x="8" y="8" width="361" height="662.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Infinity Rush is a fast-paced and thrilling adventure game that takes you on an endless journey through challenging terrains! Dodge obstacles. 
+                                        <mutableString key="text">Zorvo Hunter: An Ancient Egyptian Word-Hunting Adventure!
+
+Embark on a thrilling journey through the mystical sands of ancient Egypt in Zorvo Hunter, a fast-paced word-hunting game with a unique twist. Players navigate a magical view to uncover hidden letters scattered across the game board, inspired by the hieroglyphic mysteries of Egyptian temples. The goal is to collect all the letters to form the target word before the sands of time run out. With vibrant visuals, intuitive controls, and the challenge of the ticking clock, Zorvo Hunter offers endless fun and mental stimulation for players of all ages.
 
 How to Play:
-	1.	Start the Rush: Use swipe controls to move, jump, and slide your character.
-	2.	Dodge Obstacles: Navigate through dynamic terrains, avoiding traps and barriers.
-	3.	Set High Scores: Beat your personal records for leaderboard glory.
+	1.	Navigate the Board: Use directional controls (up, down, left, right) to move the “search view” around a board styled like an ancient Egyptian artifact.
+	2.	Find Hidden Letters: Reveal hidden letters by guiding the “search view” to collide with letter boxes adorned with glowing hieroglyphs.
+	3.	Form the Word: Collect the letters needed to complete the target word displayed in a golden cartouche at the top of the screen.
+	4.	Beat the Clock: Complete the word before the timer—represented by flowing golden sand—runs out to unlock the next challenge.
+	5.	Progress Through Levels: Each level brings a new word and intricate patterns of hidden letters, set against breathtaking Egyptian backdrops.
+	6.	Compete for High Scores: Aim for the highest score and challenge friends to climb the pyramid of the leaderboard.
 
 Features:
-	•	Enhance Focus: Sharpen your reflexes and strategy as you navigate the ever-changing challenges.
-	•	Stress Relief: Enjoy an engaging escape with smooth gameplay and exciting visuals.
-	•	Fun for All Ages: Easy-to-learn controls make it perfect for players of all skill levels.
-	•	Competitive Spirit: Climb the leaderboard and show off your skills to the world.
+	•	Boost Cognitive Skills: Sharpen problem-solving and memory while decoding hidden letters in hieroglyphic-inspired puzzles.
+	•	Improve Coordination: Enhance hand-eye coordination with precise movements to uncover clues amidst the ancient symbols.
+	•	Engaging Gameplay: Combines the challenge of word-building with immersive Egyptian-themed visuals for a one-of-a-kind experience.
+	•	Stay Focused: Encourages concentration as players scan the game board, mimicking the thrill of exploring ancient ruins.
+	•	Family-Friendly Fun: Suitable for all ages, making it perfect for family adventures into the secrets of Egypt.
+	•	Healthy Competition: Compete with friends to uncover the mysteries of the words and claim the crown of the pharaoh.
 
-Join Infinity Rush now and embark on an endless adventure to test your speed, skills, and determination!</mutableString>
+Step into the enchanting world of Zorvo Hunter and unearth the secrets of ancient Egypt. Can you beat the clock, uncover the hidden words, and claim the treasures of the Nile? The adventure awaits!</mutableString>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="21"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1081,6 +1088,14 @@ Join Infinity Rush now and embark on an endless adventure to test your speed, sk
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lmD-3Q-Tt4">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGM-ba-Kav">
                                 <rect key="frame" x="4.9999999999999964" y="64" width="60.666666666666657" height="60.666666666666657"/>
                                 <constraints>
@@ -1095,13 +1110,22 @@ Join Infinity Rush now and embark on an endless adventure to test your speed, sk
                                     <action selector="backButtonWith_sender:" destination="en5-0y-sKX" eventType="touchUpInside" id="jpc-gx-fXS"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="KGE-dc-Bda">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RIn-ab-ej2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lmD-3Q-Tt4" secondAttribute="trailing" id="7zJ-B2-GDm"/>
+                            <constraint firstItem="KGE-dc-Bda" firstAttribute="centerX" secondItem="6Rf-uv-eur" secondAttribute="centerX" id="HAS-Pg-6FJ"/>
                             <constraint firstItem="GGM-ba-Kav" firstAttribute="height" secondItem="RIn-ab-ej2" secondAttribute="height" multiplier="0.08" id="QLp-me-w7W"/>
+                            <constraint firstItem="lmD-3Q-Tt4" firstAttribute="top" secondItem="6Rf-uv-eur" secondAttribute="top" id="ROb-Sx-L5T"/>
+                            <constraint firstItem="KGE-dc-Bda" firstAttribute="centerY" secondItem="6Rf-uv-eur" secondAttribute="centerY" id="Ru1-eg-3ag"/>
+                            <constraint firstAttribute="bottom" secondItem="lmD-3Q-Tt4" secondAttribute="bottom" id="ctS-md-84o"/>
                             <constraint firstItem="GGM-ba-Kav" firstAttribute="top" secondItem="RIn-ab-ej2" secondAttribute="top" constant="5" id="fIg-yM-BCO"/>
                             <constraint firstItem="GGM-ba-Kav" firstAttribute="leading" secondItem="RIn-ab-ej2" secondAttribute="leading" constant="5" id="hoK-nP-KJa"/>
+                            <constraint firstItem="lmD-3Q-Tt4" firstAttribute="leading" secondItem="6Rf-uv-eur" secondAttribute="leading" id="zRb-Q4-3bb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="adt-W8-RvF"/>
